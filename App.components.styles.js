@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
-
+import color from "./contains/color";
 const styles=StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#eff7f8',
+        backgroundColor:color.background,
     },
     body:{
         flex:1,
@@ -12,7 +12,7 @@ const styles=StyleSheet.create({
     },
     header:{
         fontSize:24,
-        color:'#21a3d0',
+        color:color.primary,
         fontWeight:'bold',
     },
     items:{
